@@ -1,0 +1,76 @@
+html,
+body {
+  height: 100%;
+}
+
+body.daftar-uji-page {
+  background-color: #388de2;
+  font-size: 15px;
+}
+
+.daftar-uji-page .brand {
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 40px auto;
+  box-shadow: 0 4px 8px rgba(110, 69, 206, 0.05);
+  position: relative;
+  z-index: 1;
+}
+
+.daftar-uji-page .brand img {
+  width: 100%;
+}
+
+.daftar-uji-page .card-wrapper {
+  width: 400px;
+}
+
+.daftar-uji-page .card {
+  border-color: transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.daftar-uji-page .card.fat {
+  padding: 10px;
+}
+
+.daftar-uji-page .card .card-title {
+  margin-bottom: 30px;
+}
+
+.daftar-uji-page .form-control {
+  border-width: 2.3px;
+}
+
+.daftar-uji-page .form-group label {
+  width: 100%;
+}
+
+.daftar-uji-page .btn.btn-block {
+  padding: 12px 10px;
+}
+
+.daftar-uji-page .footer {
+  margin: 40px 0;
+  color: rgb(80, 78, 231);
+  text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+  .daftar-uji-page .card-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .daftar-uji-page .card.fat {
+    padding: 0;
+  }
+
+  .daftar-uji-page .card.fat .card-body {
+    padding: 15px;
+  }
+}
